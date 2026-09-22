@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Toca do Bode — Trap underground do Brasil: entrevistas e lançamentos exclusivos</title>
+<meta name="description" content="Toca do Bode cobre o trap underground do Brasil inteiro com entrevistas exclusivas e textos de lançamento de álbum. Sem gravadora, sem assessoria, sem filtro.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://tocadobode.com.br/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Toca do Bode">
+<meta property="og:title" content="Toca do Bode — Trap underground do Brasil">
+<meta property="og:description" content="Entrevistas exclusivas e cobertura de lançamentos do trap underground brasileiro, direto da fonte.">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Toca do Bode — Trap underground do Brasil">
+<meta name="twitter:description" content="Entrevistas exclusivas e cobertura de lançamentos do trap underground brasileiro, direto da fonte.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Pirata+One&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Toca do Bode",
+  "url": "https://tocadobode.com.br/",
+  "description": "Cobertura do trap underground do Brasil: entrevistas exclusivas e textos de lançamento de álbum.",
+  "inLanguage": "pt-BR",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Toca do Bode"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "headline": "Direto da toca: a entrevista completa com Vinte3",
+        "articleSection": "Entrevistas",
+        "inLanguage": "pt-BR"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "headline": "\"Concreto Mole\" e o novo som da zona leste de SP",
+        "articleSection": "Lançamentos",
+        "inLanguage": "pt-BR"
+      }
+    }
+  ]
+}
+</script>
+<style>
+  :root{
+    --bg: #0c0a0a;
+    --bg-raised: #161111;
+    --paper: #f2ede4;
+    --ink: #f2ede4;
+    --ink-dim: #a89b93;
+    --line: #2c2222;
+    --red: #c8161d;
+    --red-dim: #6e0d11;
+    --red-bright: #e8323a;
+    --font-logo: 'Pirata One', cursive;
+    --font-display: 'Anton', sans-serif;
+    --font-body: 'IBM Plex Sans', sans-serif;
+    --font-mono: 'IBM Plex Mono', monospace;
+    --measure: 62ch;
+  }
+  :root:not([data-theme="light"]){ color-scheme: dark; }
+  @media (prefers-color-scheme: light){
+    :root:not([data-theme="dark"]){
+      --bg: #0c0a0a; --bg-raised: #161111; --ink: #f2ede4; --ink-dim: #a89b93; --line: #2c2222;
+    }
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html{ scroll-padding-top: env(safe-area-inset-top, 0px); scroll-behavior:smooth; }
+  body{
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 17px;
+    line-height: 1.55;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  a{ color:inherit; }
+  img{ max-width:100%; display:block; }
+  .wrap{ max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+  @media (prefers-reduced-motion: reduce){
+    *{ animation-duration:0.001ms !important; transition-duration:0.001ms !important; scroll-behavior:auto !important; }
+  }
+
+  /* ---- logo mark (bode) ---- */
+  .goat{ display:block; }
+  .goat .horn{ fill: var(--red); }
+  .goat .face{ fill: var(--paper); }
+  .goat .eye{ fill: var(--bg); }
+  .goat .ear{ fill: var(--red-dim); }
+
+  /* ---- topo / nav ---- */
+  header.site{
+    position: sticky; top: env(safe-area-inset-top, 0px); z-index: 40;
+    background: rgba(12,10,10,0.94);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--line);
+  }
+  .nav{
+    display:flex; align-items:center; justify-content:space-between;
+    padding: 14px 20px; max-width: 1120px; margin: 0 auto; gap: 16px;
+  }
+  .brand{ display:flex; align-items:center; gap: 10px; text-decoration:none; min-width:0; }
+  .brand .goat{ width: 34px; height: 34px; flex-shrink:0; }
+  .brand span{
+    font-family: var(--font-logo);
+    font-size: 1.5rem;
+    color: var(--paper);
+    white-space: nowrap;
+  }
+  .nav-links{ display:flex; gap: 24px; list-style:none; font-size: 0.94rem; }
+  .nav-links a{ text-decoration:none; color: var(--ink-dim); padding: 4px 2px; border-bottom: 2px solid transparent; }
+  .nav-links a:hover, .nav-links a:focus-visible{ color: var(--ink); border-color: var(--red); }
+  @media (max-width: 640px){
+    .nav-links{ display:none; }
+    .brand span{ font-size: 1.25rem; }
+  }
+
+  /* ---- hero ---- */
+  .hero{
+    position: relative;
+    padding: 64px 0 52px;
+    border-bottom: 1px solid var(--line);
+    overflow: hidden;
+  }
+  .hero-mark{
+    position:absolute;
+    right: -60px; top: -40px;
+    width: 340px; height: 340px;
+    opacity: 0.07;
+    pointer-events: none;
+  }
+  @media (max-width: 700px){ .hero-mark{ width: 220px; height: 220px; right:-50px; top:-20px; } }
+  .hero-kicker{ font-family: var(--font-mono); font-size: 0.8rem; color: var(--red-bright); margin-bottom: 16px; letter-spacing: 0.3px; }
+  .hero h1{
+    font-family: var(--font-display); font-weight: 400;
+    font-size: clamp(2.1rem, 7vw, 4.2rem);
+    line-height: 1.0; max-width: 15ch;
+    position: relative;
+  }
+  .hero p{ margin-top: 20px; max-width: var(--measure); color: var(--ink-dim); font-size: 1.05rem; position: relative; }
+  .hero-actions{ margin-top: 30px; display:flex; gap: 14px; flex-wrap: wrap; position: relative; }
+  .btn{
+    display:inline-block; font-family: var(--font-body); font-weight: 600; font-size: 0.92rem;
+    padding: 13px 20px; text-decoration:none; border: 1px solid var(--line); color: var(--ink);
+    background: transparent; cursor: pointer;
+  }
+  .btn-primary{ background: var(--red); color: #fff; border-color: var(--red); }
+  .btn-primary:hover{ background: var(--red-bright); }
+  .btn:hover{ border-color: var(--ink-dim); }
+
+  /* ---- destaque ---- */
+  .featured{ padding: 52px 0; border-bottom: 1px solid var(--line); }
+  .featured-grid{ display:grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px; align-items:start; }
+  @media (max-width: 800px){ .featured-grid{ grid-template-columns: 1fr; gap: 28px; } }
+  .cover-block{
+    aspect-ratio: 4/3; background: radial-gradient(circle at 30% 20%, #2a0c0d 0%, #0c0a0a 65%);
+    border: 1px solid var(--line); position: relative; overflow:hidden;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .cover-block .goat{ width: 46%; height: 46%; opacity: 0.9; }
+  .cover-label{ position:absolute; left:16px; bottom:16px; font-family: var(--font-mono); font-size: 0.78rem; color: var(--red-bright); }
+  .section-label{ font-family: var(--font-mono); font-size: 0.8rem; color: var(--red-dim); margin-bottom: 14px; }
+  .featured h2{ font-family: var(--font-display); font-weight: 400; font-size: clamp(1.5rem, 3.6vw, 2.3rem); line-height: 1.06; margin-bottom: 14px; }
+  .featured .dek{ color: var(--ink-dim); max-width: var(--measure); margin-bottom: 16px; }
+  .byline{ font-family: var(--font-mono); font-size: 0.8rem; color: var(--ink-dim); }
+
+  /* ---- grid de posts ---- */
+  .posts{ padding: 56px 0; border-bottom: 1px solid var(--line); }
+  .posts-head{ display:flex; justify-content:space-between; align-items:baseline; margin-bottom: 32px; flex-wrap: wrap; gap: 12px; }
+  .posts-head h2{ font-family: var(--font-display); font-weight: 400; font-size: 1.7rem; }
+  .filter-tags{ display:flex; gap:10px; font-family: var(--font-mono); font-size: 0.76rem; flex-wrap: wrap; }
+  .filter-tags span{ padding: 5px 10px; border: 1px solid var(--line); color: var(--ink-dim); }
+  .filter-tags span.active{ color: var(--red-bright); border-color: var(--red-dim); }
+  .post-grid{ display:grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+  @media (max-width: 860px){ .post-grid{ grid-template-columns: repeat(2,1fr); } }
+  @media (max-width: 560px){ .post-grid{ grid-template-columns: 1fr; } }
+  .post-card{ background: var(--bg); padding: 24px 20px 26px; display:flex; flex-direction:column; min-height: 220px; }
+  .post-tag{ font-family: var(--font-mono); font-size: 0.7rem; color: var(--red-bright); margin-bottom: 10px; }
+  .post-card h3{ font-family: var(--font-display); font-weight: 400; font-size: 1.2rem; line-height: 1.12; margin-bottom: 10px; }
+  .post-card p{ color: var(--ink-dim); font-size: 0.93rem; flex-grow:1; }
+  .post-card .byline{ margin-top: 14px; }
+
+  /* ---- sobre ---- */
+  .about{ padding: 60px 0; border-bottom: 1px solid var(--line); }
+  .about-grid{ display:grid; grid-template-columns: 0.8fr 1.2fr; gap: 48px; }
+  @media (max-width: 800px){ .about-grid{ grid-template-columns: 1fr; gap: 28px; } }
+  .about h2{ font-family: var(--font-display); font-weight: 400; font-size: 1.9rem; line-height: 1.06; }
+  .about-list{ list-style:none; display:flex; flex-direction:column; gap: 24px; }
+  .about-list li{ border-top: 1px solid var(--line); padding-top: 16px; }
+  .about-list h4{ font-size: 1rem; margin-bottom: 6px; color: var(--red-bright); }
+  .about-list p{ color: var(--ink-dim); font-size: 0.94rem; max-width: var(--measure); }
+
+  /* ---- mapa de regiões ---- */
+  .regions{ padding: 52px 0; border-bottom: 1px solid var(--line); }
+  .region-list{ display:flex; flex-wrap:wrap; gap: 10px; margin-top: 18px; }
+  .region-list span{
+    font-family: var(--font-mono); font-size: 0.82rem; color: var(--ink-dim);
+    border: 1px solid var(--line); padding: 7px 12px;
+  }
+
+  /* ---- newsletter ---- */
+  .subscribe{ padding: 56px 0; border-bottom: 1px solid var(--line); }
+  .subscribe-box{
+    border: 1px solid var(--line); background: var(--bg-raised); padding: 36px;
+    display:flex; justify-content:space-between; align-items:center; gap: 28px; flex-wrap: wrap;
+  }
+  .subscribe-box h2{ font-family: var(--font-display); font-weight: 400; font-size: 1.5rem; max-width: 17ch; }
+  .subscribe-box p{ color: var(--ink-dim); margin-top: 8px; max-width: 34ch; font-size: 0.93rem; }
+  form.mail{ display:flex; gap: 10px; flex-wrap: wrap; }
+  form.mail input[type="email"]{
+    background: var(--bg); border: 1px solid var(--line); color: var(--ink);
+    padding: 13px 14px; font-family: var(--font-body); font-size: 0.94rem; min-width: 220px;
+  }
+  form.mail input[type="email"]:focus-visible, a:focus-visible, button:focus-visible{
+    outline: 2px solid var(--red-bright); outline-offset: 2px;
+  }
+  .mail-msg{ font-family: var(--font-mono); font-size: 0.8rem; color: var(--red-bright); margin-top: 10px; min-height: 1.2em; }
+
+  /* ---- footer ---- */
+  footer.site{ padding: 44px 0 36px; }
+  .footer-grid{ display:flex; justify-content:space-between; flex-wrap: wrap; gap: 26px; }
+  .footer-brand{ display:flex; align-items:center; gap: 10px; }
+  .footer-brand .goat{ width: 28px; height: 28px; }
+  .footer-brand span{ font-family: var(--font-logo); font-size: 1.25rem; color: var(--paper); }
+  .footer-cols{ display:flex; gap: 48px; flex-wrap: wrap; }
+  .footer-cols div h5{ font-family: var(--font-mono); font-size: 0.74rem; color: var(--ink-dim); margin-bottom: 12px; }
+  .footer-cols ul{ list-style:none; display:flex; flex-direction:column; gap: 8px; font-size: 0.9rem; }
+  .footer-cols a{ text-decoration:none; color: var(--ink); }
+  .footer-cols a:hover{ color: var(--red-bright); }
+  .footer-bottom{
+    margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--line);
+    display:flex; justify-content:space-between; flex-wrap: wrap; gap: 10px;
+    font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-dim);
+  }
+</style>
+</head>
+<body>
+
+<!-- símbolo reutilizável do bode -->
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <symbol id="goat-mark" viewBox="0 0 240 220">
+      <path class="horn" d="M120,58 C92,26 42,16 18,58 C44,50 72,54 90,80 C100,68 110,62 120,58 Z"/>
+      <path class="horn" d="M120,58 C148,26 198,16 222,58 C196,50 168,54 150,80 C140,68 130,62 120,58 Z"/>
+      <path class="ear" d="M78,108 L52,96 L70,132 Z"/>
+      <path class="ear" d="M162,108 L188,96 L170,132 Z"/>
+      <path class="face" d="M120,72 L166,112 L150,178 L120,198 L90,178 L74,112 Z"/>
+      <rect class="eye" x="97" y="128" width="16" height="6" rx="1"/>
+      <rect class="eye" x="127" y="128" width="16" height="6" rx="1"/>
+      <path class="eye" d="M112,150 L128,150 L122,172 L118,172 Z"/>
+    </symbol>
+  </defs>
+</svg>
+
+<header class="site">
+  <nav class="nav" aria-label="Navegação principal">
+    <a href="#topo" class="brand">
+      <svg class="goat" viewBox="0 0 240 220" role="img" aria-label="Logo Toca do Bode"><use href="#goat-mark"/></svg>
+      <span>Toca do Bode</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#destaque">Destaque</a></li>
+      <li><a href="#materias">Matérias</a></li>
+      <li><a href="#regioes">Brasil</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#assinar">Assinar</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="topo">
+
+  <section class="hero wrap">
+    <svg class="goat hero-mark" viewBox="0 0 240 220" aria-hidden="true"><use href="#goat-mark"/></svg>
+    <p class="hero-kicker">TRAP UNDERGROUND — BRASIL</p>
+    <h1>O som que nasce no subsolo não pede licença pra ninguém.</h1>
+    <p>Entrevistas exclusivas, textos de lançamento e cobertura de bastidor do
+       trap underground brasileiro — de norte a sul, direto de quem tá dentro
+       da cena, sem gravadora filtrando a pauta.</p>
+    <div class="hero-actions">
+      <a href="#destaque" class="btn btn-primary">Ler a matéria da semana</a>
+      <a href="#sobre" class="btn">Como fazemos</a>
+    </div>
+  </section>
+
+  <section class="featured wrap" id="destaque">
+    <p class="section-label">MATÉRIA DA SEMANA</p>
+    <div class="featured-grid">
+      <div class="cover-block">
+        <svg class="goat" viewBox="0 0 240 220" aria-hidden="true"><use href="#goat-mark"/></svg>
+        <span class="cover-label">ENTREVISTA · SÃO PAULO</span>
+      </div>
+      <article>
+        <h2>Direto da toca: a entrevista completa com Vinte3</h2>
+        <p class="dek">Do primeiro beat gravado no celular às primeiras mil escutas
+           na madrugada: o rapper da zona leste fala sobre o processo do novo EP,
+           a cena de shows independentes e por que recusou proposta de selo pela
+           terceira vez.</p>
+        <p class="byline">Por Toca do Bode · Entrevista exclusiva · 12 min de leitura</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="posts wrap" id="materias">
+    <div class="posts-head">
+      <h2>Últimas matérias</h2>
+      <div class="filter-tags">
+        <span class="active">Todas</span>
+        <span>Entrevistas</span>
+        <span>Lançamentos</span>
+        <span>Cena</span>
+      </div>
+    </div>
+    <div class="post-grid">
+
+      <article class="post-card">
+        <p class="post-tag">LANÇAMENTO · SÃO PAULO</p>
+        <h3>"Concreto Mole": o novo som da zona leste</h3>
+        <p>Faixa a faixa do álbum que mistura trap de embalo lento com sample de
+           viola caipira — conversamos com o produtor sobre as referências.</p>
+        <p class="byline">Por Toca do Bode · 8 min</p>
+      </article>
+
+      <article class="post-card">
+        <p class="post-tag">ENTREVISTA · SALVADOR</p>
+        <h3>MC Rasteira: "gravo tudo no quarto, sem estúdio pago"</h3>
+        <p>A trajetória de uma das vozes mais ouvidas do subúrbio ferroviário, o
+           valor de gravar independente e os planos pro primeiro show fora da Bahia.</p>
+        <p class="byline">Por Toca do Bode · 10 min</p>
+      </article>
+
+      <article class="post-card">
+        <p class="post-tag">CENA · RECIFE</p>
+        <h3>Guia: onde ver trap underground ao vivo em Recife</h3>
+        <p>Levantamento de saraus, batalhas e festas independentes que estão
+           recebendo os nomes que você ainda não conhece — mas vai conhecer.</p>
+        <p class="byline">Por Toca do Bode · 6 min</p>
+      </article>
+
+      <article class="post-card">
+        <p class="post-tag">LANÇAMENTO · PORTO ALEGRE</p>
+        <h3>O EP que foi gravado em três madrugadas</h3>
+        <p>Bastidor de produção: como um coletivo da capital gaúcha lançou um
+           projeto de seis faixas sem nenhum investimento externo.</p>
+        <p class="byline">Por Toca do Bode · 7 min</p>
+      </article>
+
+      <article class="post-card">
+        <p class="post-tag">ENTREVISTA · BRASÍLIA</p>
+        <h3>Nêga Fumaça sobre feminismo e trap: "ocupar sem pedir licença"</h3>
+        <p>Uma conversa sobre representatividade, os desafios de ser mulher na
+           cena e o disco gravado em parceria com produtoras locais.</p>
+        <p class="byline">Por Toca do Bode · 9 min</p>
+      </article>
+
+      <article class="post-card">
+        <p class="post-tag">CENA · BELÉM</p>
+        <h3>Como os grupos de WhatsApp viraram gravadora informal</h3>
+        <p>Um raio-x de como artistas emergentes do norte estão distribuindo
+           faixas e fechando parcerias fora dos canais tradicionais.</p>
+        <p class="byline">Por Toca do Bode · 5 min</p>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="about wrap" id="sobre">
+    <div class="about-grid">
+      <div>
+        <p class="section-label">SOBRE A TOCA</p>
+        <h2>Cobertura de dentro, não de fora.</h2>
+      </div>
+      <ul class="about-list">
+        <li>
+          <h4>Entrevistas exclusivas</h4>
+          <p>Conversas presenciais com artistas do trap underground brasileiro,
+             sem intermédio de assessoria — resultado de contato direto e
+             confiança construída dentro da própria cena.</p>
+        </li>
+        <li>
+          <h4>Textos de lançamento</h4>
+          <p>Cobertura de álbuns e EPs no dia do lançamento, com contexto de
+             produção, referências e bastidor — não só um resumo de tracklist.</p>
+        </li>
+        <li>
+          <h4>Raiz nacional</h4>
+          <p>De São Paulo ao Norte e Nordeste, cobrindo o trap que nasce fora
+             do eixo Rio-SP antes de virar pauta grande.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="regions wrap" id="regioes">
+    <p class="section-label">ONDE A GENTE COBRE</p>
+    <h2 style="font-family:var(--font-display); font-weight:400; font-size:1.7rem;">Cena por cena, estado por estado.</h2>
+    <div class="region-list">
+      <span>São Paulo</span><span>Rio de Janeiro</span><span>Salvador</span>
+      <span>Recife</span><span>Fortaleza</span><span>Belo Horizonte</span>
+      <span>Porto Alegre</span><span>Brasília</span><span>Belém</span>
+      <span>Curitiba</span><span>Manaus</span><span>Goiânia</span>
+    </div>
+  </section>
+
+  <section class="subscribe wrap" id="assinar">
+    <div class="subscribe-box">
+      <div>
+        <h2>Recebe a matéria antes de todo mundo.</h2>
+        <p>Uma vez por semana, direto no seu e-mail — sem spam, sem divulgação paga.</p>
+      </div>
+      <div>
+        <form class="mail" id="subscribeForm">
+          <label for="email" style="position:absolute;left:-9999px;">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+          <button type="submit" class="btn btn-primary">Assinar</button>
+        </form>
+        <p class="mail-msg" id="mailMsg" role="status" aria-live="polite"></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site wrap">
+  <div class="footer-grid">
+    <a href="#topo" class="footer-brand">
+      <svg class="goat" viewBox="0 0 240 220" aria-hidden="true"><use href="#goat-mark"/></svg>
+      <span>Toca do Bode</span>
+    </a>
+    <div class="footer-cols">
+      <div>
+        <h5>SEÇÕES</h5>
+        <ul>
+          <li><a href="#destaque">Destaque</a></li>
+          <li><a href="#materias">Matérias</a></li>
+          <li><a href="#regioes">Brasil</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>CONTATO</h5>
+        <ul>
+          <li><a href="mailto:contato@tocadobode.com.br">contato@tocadobode.com.br</a></li>
+          <li><a href="#assinar">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Toca do Bode — trap underground do Brasil</span>
+    <span>Feito no subsolo.</span>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var form = document.getElementById('subscribeForm');
+    var msg = document.getElementById('mailMsg');
+    if(!form) return;
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      msg.textContent = 'Recebido. Você vai começar a receber as próximas matérias.';
+      form.reset();
+    });
+  })();
+</script>
+
+</body>
+</html>
